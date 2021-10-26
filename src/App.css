@@ -46,3 +46,7 @@ button {
 	border: 1px solid;
 	border-radius: 10px;
 }
+#form {
+	width: 80%;
+	margin: auto;
+}
