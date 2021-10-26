@@ -1,11 +1,11 @@
 import React from 'react';
 import { useState } from 'react';
-const MinusTen = () => {
-	const [count, setCount] = useState(0);
+const MinusTen = ({ setCount, count, value }) => {
+	// const [count, setCount] = useState(0);
 	const handleDecrement = () => {
 		setCount(count - 10);
 	};
-	return <button onClick={handleDecrement}>-10</button>;
+	return <button onClick={handleDecrement}>{value}</button>;
 };
 
 export default MinusTen;
